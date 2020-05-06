@@ -55,4 +55,9 @@ main() {
   judgePing $percent
 }
 
-main $1
+# 可以作为一个后台任务
+while true;
+do
+  main "$1"
+  sleep 30
+done
