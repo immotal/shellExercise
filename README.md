@@ -18,3 +18,9 @@ shell 练习题，快速掌握平时常用的 shell 技巧
 - awk 用法
 - 函数，带返回值的函数
 - ping 的用法
+
+### [exercise3](https://github.com/immotal/shellExercise100/tree/master/exercise3)
+#### main
+- find 用法
+- awk 用法
+- read 等的用法
