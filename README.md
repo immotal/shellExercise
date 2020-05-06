@@ -10,3 +10,11 @@ shell 练习题，快速掌握平时常用的 shell 技巧
 - 如果获得一个进程的进程号
 - xargs 的使用
 - 利用上两步杀死进程
+
+### [exercise2](https://github.com/immotal/shellExercise100/tree/master/exercise2)
+#### main
+- 条件判断, 字符串判断，整数判断
+- sed 用法
+- awk 用法
+- 函数，带返回值的函数
+- ping 的用法
