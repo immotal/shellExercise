@@ -42,3 +42,13 @@ USER       PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
  TIME ：该 process 实际使用 CPU 运作的时间
  
  COMMAND：该程序的实际指令
+ 
+ ### 其他相关 tips
+ 根据名字找到一个进程 `ps aux | grep name`
+ 
+ 除去 grep 等干扰项 `ps aux | grep name | grep -v grep`, 其中 -v 的意思是排除后面的关键字
+ 
+ 杀死这个进程对应的服务 `ps aux | grep name | grep -v grep | xargs kill -9`
+ 
+ xargs 的用法参见阮老师的博客 [xargs 教程](http://www.ruanyifeng.com/blog/2019/08/xargs-tutorial.html)
+ 
