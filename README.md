@@ -1,7 +1,7 @@
 # shellExercise100
 shell 练习题，快速掌握平时常用的 shell 技巧
 
-### exercise1
+### [exercise1](https://github.com/immotal/shellExercise100/tree/master/exercise1)
 #### main
 - ps命令用法
 - for循环

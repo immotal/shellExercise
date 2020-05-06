@@ -48,7 +48,12 @@ USER       PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
  
  除去 grep 等干扰项 `ps aux | grep name | grep -v grep`, 其中 -v 的意思是排除后面的关键字
  
- 杀死这个进程对应的服务 `ps aux | grep name | grep -v grep | xargs kill -9`
+ 拿到对应的进程号 `ps aux | grep name | grep -v grep | awk '{print $2}'`
+ 
+ 杀死这个进程对应的服务 `ps aux | grep name | grep -v grep | awk '{print $2}' | xargs kill -9`
  
  xargs 的用法参见阮老师的博客 [xargs 教程](http://www.ruanyifeng.com/blog/2019/08/xargs-tutorial.html)
- 
+ - xargs命令的作用，是将标准输入转为命令行参数
+ - 大多数时候，xargs命令都是跟管道一起使用的
+ - 例子： `echo "hello" | xargs echo`
+ - 例子：`ps aux | grep vanguard | grep -v grep | awk '{print $2}' | xargs -p kill -9`
