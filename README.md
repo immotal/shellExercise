@@ -24,3 +24,13 @@ shell 练习题，快速掌握平时常用的 shell 技巧
 - find 用法
 - awk 用法
 - read 等的用法
+
+### [exercise4](https://github.com/immotal/shellExercise100/tree/master/exercise4)
+#### main
+- date 的用法
+
+### [exercise5](https://github.com/immotal/shellExercise100/tree/master/exercise5)
+#### main
+- awk 
+- sort
+- uniq
