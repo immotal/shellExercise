@@ -34,3 +34,7 @@ shell 练习题，快速掌握平时常用的 shell 技巧
 - awk 
 - sort
 - uniq
+
+### [exercise6](https://github.com/immotal/shellExercise100/tree/master/exercise6)
+#### main
+- sed 
