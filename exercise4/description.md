@@ -5,3 +5,7 @@
 - date 的使用
 - 磁盘命令
 - if 语句
+
+### tips 
+
+[date 命令详解](https://blog.csdn.net/runming918/article/details/7223520)
