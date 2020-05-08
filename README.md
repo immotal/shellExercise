@@ -43,3 +43,9 @@ shell 练习题，快速掌握平时常用的 shell 技巧
 #### main
 - awk length 用法  `awk '{print length($0)}' <<< "$var"`
 - for 循环取字符串中的单词
+
+### [exercise8](https://github.com/immotal/shellExercise100/tree/master/exercise8)
+#### main
+- case 用法
+- 函数返回值
+- sed 简单用法
