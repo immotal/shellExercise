@@ -16,3 +16,4 @@
   - [耗子叔的 sed 教程](https://coolshell.cn/articles/9104.html)
 - sort & uniq
   - [最佳搭档：利用 sort 和 uniq 做集合运算](https://liam.page/2016/05/05/best-match-using-sort-and-uniq-to-do-set-operations/)
+- [Linux 账号系统](http://linux.vbird.org/linux_basic/0410accountmanager.php#account)
