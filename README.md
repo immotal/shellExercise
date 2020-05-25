@@ -49,3 +49,9 @@ shell 练习题，快速掌握平时常用的 shell 技巧
 - case 用法
 - 函数返回值
 - sed 简单用法
+
+### [exercise9](https://github.com/immotal/shellExercise100/tree/master/exercise9)
+#### main
+- sed 用法
+- awk 用法
+- iptables 用法, 暂时未补充
