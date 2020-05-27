@@ -1,7 +1,33 @@
 # shellExercise100
 shell 练习题，快速掌握平时常用的 shell 技巧
 
-[TOC]
+<!--ts-->
+   * [shellExercise100](#shellexercise100)
+         * [<a href="https://github.com/immotal/shellExercise100/tree/master/exercise1">计算一下linux系统所有进程占用内存大小的和</a>](#计算一下linux系统所有进程占用内存大小的和)
+            * [main](#main)
+            * [tips](#tips)
+         * [<a href="https://github.com/immotal/shellExercise100/tree/master/exercise2">监控远程的一台机器的存活状态，当发现宕机时发一封邮件给你自己</a>](#监控远程的一台机器的存活状态当发现宕机时发一封邮件给你自己)
+            * [main](#main-1)
+         * [<a href="https://github.com/immotal/shellExercise100/tree/master/exercise3">批量查找修改压缩文件</a>](#批量查找修改压缩文件)
+            * [main](#main-2)
+         * [<a href="https://github.com/immotal/shellExercise100/tree/master/exercise4">把磁盘的使用情况写到日期为文件名字的文件中</a>](#把磁盘的使用情况写到日期为文件名字的文件中)
+            * [main](#main-3)
+         * [<a href="https://github.com/immotal/shellExercise100/tree/master/exercise5">统计出日志文件中每个IP访问量有多少</a>](#统计出日志文件中每个ip访问量有多少)
+            * [main](#main-4)
+         * [<a href="https://github.com/immotal/shellExercise100/tree/master/exercise6"> 使用 sed 处理日志文件，筛选对应内容</a>](#-使用-sed-处理日志文件筛选对应内容)
+            * [main](#main-5)
+         * [<a href="https://github.com/immotal/shellExercise100/tree/master/exercise7">打印 提供的这句话中字母数小于6的单词</a>](#打印-提供的这句话中字母数小于6的单词)
+            * [main](#main-6)
+         * [<a href="https://github.com/immotal/shellExercise100/tree/master/exercise8">输入自定义命令然后运行对应的一个命令</a>](#输入自定义命令然后运行对应的一个命令)
+            * [main](#main-7)
+         * [<a href="https://github.com/immotal/shellExercise100/tree/master/exercise9">根据访问日志处理请求量过高的 IP</a>](#根据访问日志处理请求量过高的-ip)
+            * [main](#main-8)
+         * [<a href="https://github.com/immotal/shellExercise100/tree/master/exercise10">查看 Linux 系统中的普通用户的数量</a>](#查看-linux-系统中的普通用户的数量)
+            * [main](#main-9)
+
+<!-- Added by: fupeng.li, at: Wed May 27 20:46:06 CST 2020 -->
+
+<!--te-->
 
 ### [计算一下linux系统所有进程占用内存大小的和](https://github.com/immotal/shellExercise100/tree/master/exercise1)
 #### main
