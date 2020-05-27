@@ -1,7 +1,7 @@
 # shellExercise100
 shell 练习题，快速掌握平时常用的 shell 技巧
 
-[toc]
+[TOC]
 
 ### [计算一下linux系统所有进程占用内存大小的和](https://github.com/immotal/shellExercise100/tree/master/exercise1)
 #### main
