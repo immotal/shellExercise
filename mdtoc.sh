@@ -304,7 +304,9 @@ gh_toc_app() {
 # deal with my particular readme file
 deal_my_readme() {
   local readmeFile="$(pwd)/README.md"
+  local readmeBak="$(pwd)/README.md.bak"
   local tocFile="$(pwd)/README.md.toc"
+  local tmp="$(pwd)/tmp"
   local begin="<!--ts-->"
   local end="<!--te-->"
   if [ ! -e "$tocFile" ]; then
@@ -320,8 +322,22 @@ deal_my_readme() {
     fi
   done < "$readmeFile" # 读入的是 readme 文件，写入的是 toc 文件
 
+  # write tocFile content to readmeFile between <!--ts--> and <!--te-->
+  # clear old toc
+  # 这个地方有个疑问为解决，原代码，此文件第 168 行左右删除两行之间的数据（不包括两行）没有看明白，因此
+  # 使用了这个拙劣的方法，用了一个中间的 tmp 文件
+  sed -n "1,/${begin}/p;/${end}/,$ p" "${readmeFile}" > "${tmp}"
+  > "${readmeFile}"
+  cat "${tmp}" > "${readmeFile}"
+  # write new toc
+  # 这里使用 "" 的目的是，Mac 下需要指定一个备份文件，就算为空也要指定, 这里 r 的意思是指从后面对应的文件读入数据
+  # 详见：http://c.biancheng.net/view/4028.html
+  sed -i "" "/${begin}/r ${tocFile}" "${readmeFile}"
 
-#  [ -f "$tocFile" ] && rm -rf "$tocFile"
+
+  [ -f "${tocFile}" ] && rm -rf "${tocFile}"
+  [ -f "${readmeBak}" ] && rm -rf "${readmeBak}"
+  [ -f "${tmp}" ] && rm -rf "${tmp}"
 }
 
 deal_my_readme
