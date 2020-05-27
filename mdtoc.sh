@@ -299,4 +299,29 @@ gh_toc_app() {
 #
 # Entry point
 #
-gh_toc_app "$@"
+#gh_toc_app "$@"
+
+# deal with my particular readme file
+deal_my_readme() {
+  local readmeFile="$(pwd)/README.md"
+  local tocFile="$(pwd)/README.md.toc"
+  local begin="<!--ts-->"
+  local end="<!--te-->"
+  if [ ! -e "$tocFile" ]; then
+    touch "$tocFile"
+  else
+    > "$tocFile"
+  fi
+  # shellcheck disable=SC2162
+  while read line; do
+    if [ "${line:0:4}" == "### " ];then
+      name=$(echo "$line" | awk -F "[" '{print $2}' | awk -F "]" '{print $1}')
+      echo "* [$name](#$name)" >> "$tocFile"
+    fi
+  done < "$readmeFile" # 读入的是 readme 文件，写入的是 toc 文件
+
+
+#  [ -f "$tocFile" ] && rm -rf "$tocFile"
+}
+
+deal_my_readme
