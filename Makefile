@@ -1,4 +1,3 @@
 
 generateTOC:
-	./mdtoc.sh --insert README.md
-	#rm -rf README.md.*
+	./mdtoc.sh README.md

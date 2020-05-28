@@ -166,6 +166,8 @@ gh_toc(){
             local toc_path="${gh_src}.toc.${dt}"
             local toc_footer="<!-- Added by: `whoami`, at: `date` -->"
             # http://fahdshariff.blogspot.ru/2012/12/sed-mutli-line-replacement-between-two.html
+            # https://opus.konghy.cn/sed-refer/ 关于 {} 的使用和分号的使用
+            # 或者耗子叔的 https://coolshell.cn/articles/9104.html 搜索 命令打包
             # clear old TOC
             sed -i${ext} "/${ts}/,/${te}/{//!d;}" "$gh_src"
             # create toc file
@@ -329,6 +331,12 @@ deal_my_readme() {
   sed -n "1,/${begin}/p;/${end}/,$ p" "${readmeFile}" > "${tmp}"
   > "${readmeFile}"
   cat "${tmp}" > "${readmeFile}"
+
+  # 现在明白了具体的原因了
+  # 是指首先匹配 begin 和 end 对应的范围，然后这个范围内，匹配 begin，使用 n 移动到下一行，然后匹配 end 行，匹配到这一行后，把不是
+  # 这一行的都删掉, 下面是执行的语句
+  #  sed -i '.tmp' "/${begin}/,/${end}/{/${begin}/n;/${end}/!d}" "${readmeFile}"
+
   # write new toc
   # 这里使用 "" 的目的是，Mac 下需要指定一个备份文件，就算为空也要指定, 这里 r 的意思是指从后面对应的文件读入数据
   # 详见：http://c.biancheng.net/view/4028.html
