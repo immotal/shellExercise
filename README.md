@@ -12,6 +12,7 @@ shell 练习题，快速掌握平时常用的 shell 技巧
 * [输入自定义命令然后运行对应的一个命令](#输入自定义命令然后运行对应的一个命令)
 * [根据访问日志处理请求量过高的IP](#根据访问日志处理请求量过高的IP)
 * [查看Linux系统中的普通用户的数量](#查看Linux系统中的普通用户的数量)
+* [awk,sed工具混合使用综合](#awk,sed工具混合使用综合)
 <!--te-->
 
 
@@ -78,3 +79,20 @@ shell 练习题，快速掌握平时常用的 shell 技巧
 - linux 账号管理
 - awk 用法
 - 函数返回值问题
+
+### [awk,sed工具混合使用综合](https://github.com/immotal/shellExercise100/tree/master/exercise11)
+#### main
+- linux 账号管理
+- awk 用法
+- 函数返回值问题
+- read
+- for 循环的嵌套
+- sed {} 的作用，花括号内;的作用，r file 的用法
+- uniq, sort 的使用
+- wc 使用，特别注意事项，出现 wc 必须跟 awk
+- if 条件中 字符串和数字的比较多看下，容易忘
+- 循环输出一个文件内的所有单词
+- seq 的使用
+- 综合判断 [ ] && [ ] 中 && 的使用
+- while 和 read 还有 < file 的使用
+- while 中 continue 和 break 的使用
