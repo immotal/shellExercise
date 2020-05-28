@@ -12,7 +12,7 @@ shell 练习题，快速掌握平时常用的 shell 技巧
 * [输入自定义命令然后运行对应的一个命令](#输入自定义命令然后运行对应的一个命令)
 * [根据访问日志处理请求量过高的IP](#根据访问日志处理请求量过高的IP)
 * [查看Linux系统中的普通用户的数量](#查看Linux系统中的普通用户的数量)
-* [awk,sed工具混合使用综合](#awk,sed工具混合使用综合)
+* [awk和sed等工具混合使用综合](#awk和sed等工具混合使用综合)
 <!--te-->
 
 
@@ -80,7 +80,7 @@ shell 练习题，快速掌握平时常用的 shell 技巧
 - awk 用法
 - 函数返回值问题
 
-### [awk,sed工具混合使用综合](https://github.com/immotal/shellExercise100/tree/master/exercise11)
+### [awk和sed等工具混合使用综合](https://github.com/immotal/shellExercise100/tree/master/exercise11)
 #### main
 - linux 账号管理
 - awk 用法
