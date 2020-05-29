@@ -15,6 +15,7 @@ shell 练习题，快速掌握平时常用的 shell 技巧
 * [awk和sed等工具混合使用综合](#awk和sed等工具混合使用综合)
 * [一个猜数字的小游戏](#一个猜数字的小游戏)
 * [连续输出数字](#连续输出数字)
+* [打印磁盘信息](#打印磁盘信息)
 <!--te-->
 
 
@@ -114,3 +115,9 @@ shell 练习题，快速掌握平时常用的 shell 技巧
 - echo (-n 表示不换行)
 - read
 - sed
+
+### [打印磁盘信息](https://github.com/immotal/shellExercise100/tree/master/exercise15)
+#### main
+- date
+- inode 等 VFS 知识
+- df
