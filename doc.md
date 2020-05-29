@@ -21,3 +21,4 @@
 - sort & uniq
   - [最佳搭档：利用 sort 和 uniq 做集合运算](https://liam.page/2016/05/05/best-match-using-sort-and-uniq-to-do-set-operations/)
 - [Linux 账号系统](http://linux.vbird.org/linux_basic/0410accountmanager.php#account)
+- [wget 比较详细的中文解释](https://www.cnblogs.com/peida/archive/2013/03/18/2965369.html)

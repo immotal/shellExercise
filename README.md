@@ -17,6 +17,7 @@ shell 练习题，快速掌握平时常用的 shell 技巧
 * [连续输出数字](#连续输出数字)
 * [打印磁盘信息](#打印磁盘信息)
 * [一个命令行历史记录的探讨](#一个命令行历史记录的探讨)
+* [文件下载器](#文件下载器)
 <!--te-->
 
 
@@ -130,3 +131,8 @@ shell 练习题，快速掌握平时常用的 shell 技巧
 - sort
 - uniq
 - history
+
+### [文件下载器](https://github.com/immotal/shellExercise100/tree/master/exercise17)
+#### main
+- wget
+- case
