@@ -14,7 +14,7 @@ shell 练习题，快速掌握平时常用的 shell 技巧
 * [查看Linux系统中的普通用户的数量](#查看Linux系统中的普通用户的数量)
 * [awk和sed等工具混合使用综合](#awk和sed等工具混合使用综合)
 * [一个猜数字的小游戏](#一个猜数字的小游戏)
-* [连续输出的数字,shell语法练习](#连续输出的数字,shell语法练习)
+* [连续输出数字](#连续输出数字)
 <!--te-->
 
 
@@ -105,7 +105,7 @@ shell 练习题，快速掌握平时常用的 shell 技巧
 - 数字的计算
 - sed 的具体工作模式
 
-### [连续输出的数字,shell语法练习](https://github.com/immotal/shellExercise100/tree/master/exercise14)
+### [连续输出数字](https://github.com/immotal/shellExercise100/tree/master/exercise14)
 #### main
 - 数字的计算，（数字不要用""包裹起来）
 - seq 的用法
