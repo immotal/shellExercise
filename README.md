@@ -13,6 +13,7 @@ shell 练习题，快速掌握平时常用的 shell 技巧
 * [根据访问日志处理请求量过高的IP](#根据访问日志处理请求量过高的IP)
 * [查看Linux系统中的普通用户的数量](#查看Linux系统中的普通用户的数量)
 * [awk和sed等工具混合使用综合](#awk和sed等工具混合使用综合)
+* [一个猜数字的小游戏](#一个猜数字的小游戏)
 <!--te-->
 
 
@@ -96,3 +97,9 @@ shell 练习题，快速掌握平时常用的 shell 技巧
 - 综合判断 [ ] && [ ] 中 && 的使用
 - while 和 read 还有 < file 的使用
 - while 中 continue 和 break 的使用
+
+### [一个猜数字的小游戏](https://github.com/immotal/shellExercise100/tree/master/exercise13)
+#### main
+- "${RANDOM}" 的使用
+- 数字的计算
+- sed 的具体工作模式

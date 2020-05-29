@@ -11,6 +11,7 @@
 - awk 
   - [阮一峰老师 awk 教程](http://www.ruanyifeng.com/blog/2018/11/awk.html)
 - sed
+  - [sed 官方手册](http://www.gnu.org/software/sed/manual/sed.html#Introduction)
   - [sed修炼系列](https://www.cnblogs.com/f-ck-need-u/p/7488469.html), 这篇概念讲的比较清楚
   - [sed 快速入门](https://juejin.im/post/5ce5190b5188252dbb08baa8), 这篇上手比较快
   - [耗子叔的 sed 教程](https://coolshell.cn/articles/9104.html)
