@@ -16,6 +16,7 @@ shell 练习题，快速掌握平时常用的 shell 技巧
 * [一个猜数字的小游戏](#一个猜数字的小游戏)
 * [连续输出数字](#连续输出数字)
 * [打印磁盘信息](#打印磁盘信息)
+* [一个命令行历史记录的探讨](#一个命令行历史记录的探讨)
 <!--te-->
 
 
@@ -121,3 +122,11 @@ shell 练习题，快速掌握平时常用的 shell 技巧
 - date
 - inode 等 VFS 知识
 - df
+
+### [一个命令行历史记录的探讨](https://github.com/immotal/shellExercise100/tree/master/exercise16)
+#### main
+- awk
+- sed
+- sort
+- uniq
+- history
