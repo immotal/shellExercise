@@ -18,6 +18,7 @@ shell 练习题，快速掌握平时常用的 shell 技巧
 * [打印磁盘信息](#打印磁盘信息)
 * [一个命令行历史记录的探讨](#一个命令行历史记录的探讨)
 * [文件下载器](#文件下载器)
+* [检查pid出问题的进程](#检查pid出问题的进程)
 <!--te-->
 
 
@@ -136,3 +137,9 @@ shell 练习题，快速掌握平时常用的 shell 技巧
 #### main
 - wget
 - case
+
+### [检查pid出问题的进程](https://github.com/immotal/shellExercise100/tree/master/exercise18)
+#### main
+- /proc/pid
+- ps aux
+- read
